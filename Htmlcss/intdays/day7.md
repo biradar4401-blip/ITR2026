@@ -79,3 +79,59 @@ let name = "JavaScript";
 // Accessing characters using square brackets
 console.log(name[0]); // Output: J (First character)
 console.log(name[4]); // Output: S (Fifth charac4
+
+# 6_String_methods_JS
+
+String methods are built-in functions used to perform operations on strings, such as changing case, finding text, or extracting parts of a string.
+
+Example:
+let name = "JavaScript";
+
+console.log(name.toUpperCase()); 
+console.log(name.toLowerCase()); 
+console.log(name.length); 
+
+# 7_Truthy_Falsy_JS
+
+Truthy values are treated as true, and Falsy values are treated as false in conditions.
+
+Falsy Values
+false
+0
+"" (empty string)
+null
+undefined
+NaN
+
+All other values are Truthy.
+
+Example:
+
+let name = "";
+
+if (name) {
+  console.log("Truthy");
+} else {
+  console.log("Falsy");
+}
+
+# 8_Operators_JS
+
+Operators are symbols used to perform operations on values and variables, such as addition, comparison, and assignment.
+
+Example:
+
+let a = 10;
+let b = 5;
+
+console.log(a + b);  
+console.log(a > b);  
+
+# 9_Loops_JS
+
+Loops are used to execute a block of code multiple times until a condition becomes false.
+
+Example (for loop)
+for (let i = 1; i <= 5; i++) {
+  console.log(i);
+}
